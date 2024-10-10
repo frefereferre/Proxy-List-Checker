@@ -6,13 +6,13 @@ import logging
 # URL to check
 url = "https://www.google.com"
 # Timeout for the request (in seconds)
-timeout = 3
+timeout = 50
 # Number of threads to use
-threads = 3
+threads = 10
 # Maximum number of retries for each proxy
-max_retries = 1
+max_retries = 128
 # File containing the list of proxies
-file_path = r"D:\proxys.txt"
+file_path = r"D:\help.txt"
 
 
 logging.basicConfig(
